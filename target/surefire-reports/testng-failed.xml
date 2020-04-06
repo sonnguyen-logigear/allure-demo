@@ -3,13 +3,6 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]">
   <test thread-count="5" verbose="0" name="User Tests(failed)">
     <classes>
-      <class name="TestDemo2">
-        <methods>
-          <include name="test4"/>
-          <include name="skippedByDependencyTest"/>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- TestDemo2 -->
       <class name="TestDemo">
         <methods>
           <include name="skippedByDependencyTest"/>
@@ -17,6 +10,13 @@
           <include name="example1"/>
         </methods>
       </class> <!-- TestDemo -->
+      <class name="TestDemo2">
+        <methods>
+          <include name="test4"/>
+          <include name="skippedByDependencyTest"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestDemo2 -->
     </classes>
   </test> <!-- User Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

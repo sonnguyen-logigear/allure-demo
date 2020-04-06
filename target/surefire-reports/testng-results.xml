@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="4" ignored="0" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="381" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+  <suite name="Test Suite" duration-ms="413" started-at="2020-04-06T08:40:02 ICT" finished-at="2020-04-06T08:40:03 ICT">
     <groups>
     </groups>
-    <test name="User Tests" duration-ms="381" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+    <test name="User Tests" duration-ms="413" started-at="2020-04-06T08:40:02 ICT" finished-at="2020-04-06T08:40:03 ICT">
       <class name="TestDemo2">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:TestDemo2@4b672daa]" name="test1" duration-ms="2" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:TestDemo2@18230356]" name="test1" duration-ms="2" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [3] but found [2]]]>
@@ -32,7 +32,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -58,15 +58,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestDemo2@4b672daa]" name="test2" duration-ms="2" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestDemo2@18230356]" name="test2" duration-ms="2" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:TestDemo2@4b672daa]" name="test3" duration-ms="2" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestDemo2@18230356]" name="test3" duration-ms="2" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="FAIL" signature="test4()[pri:0, instance:TestDemo2@4b672daa]" name="test4" duration-ms="2" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="FAIL" signature="test4()[pri:0, instance:TestDemo2@18230356]" name="test4" duration-ms="2" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This test should be failed]]>
@@ -87,7 +87,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -113,17 +113,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:TestDemo2@4b672daa]" name="skippedByDependencyTest" duration-ms="0" started-at="2020-04-06T08:16:20 ICT" depends-on-methods="TestDemo2.test4" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:TestDemo2@18230356]" name="skippedByDependencyTest" duration-ms="0" started-at="2020-04-06T08:40:03 ICT" depends-on-methods="TestDemo2.test4" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestDemo2.skippedByDependencyTest()[pri:0, instance:TestDemo2@4b672daa] depends on not successfully finished methods]]>
+              <![CDATA[Method TestDemo2.skippedByDependencyTest()[pri:0, instance:TestDemo2@18230356] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestDemo2.skippedByDependencyTest()[pri:0, instance:TestDemo2@4b672daa] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestDemo2.skippedByDependencyTest()[pri:0, instance:TestDemo2@18230356] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -151,7 +151,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
         </test-method> <!-- skippedByDependencyTest -->
       </class> <!-- TestDemo2 -->
       <class name="TestDemo">
-        <test-method status="FAIL" signature="example1()[pri:0, instance:TestDemo@40c80397]" name="example1" duration-ms="80" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="FAIL" signature="example1()[pri:0, instance:TestDemo@422c3c7a]" name="example1" duration-ms="114" started-at="2020-04-06T08:40:02 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This test should be failed expected [3] but found [2]]]>
@@ -175,7 +175,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -201,15 +201,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example1 -->
-        <test-method status="PASS" signature="example2()[pri:0, instance:TestDemo@40c80397]" name="example2" duration-ms="2" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="PASS" signature="example2()[pri:0, instance:TestDemo@422c3c7a]" name="example2" duration-ms="1" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example2 -->
-        <test-method status="PASS" signature="example3()[pri:0, instance:TestDemo@40c80397]" name="example3" duration-ms="1" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="PASS" signature="example3()[pri:0, instance:TestDemo@422c3c7a]" name="example3" duration-ms="2" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example3 -->
-        <test-method status="FAIL" signature="example4()[pri:0, instance:TestDemo@40c80397]" name="example4" duration-ms="1" started-at="2020-04-06T08:16:20 ICT" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="FAIL" signature="example4()[pri:0, instance:TestDemo@422c3c7a]" name="example4" duration-ms="1" started-at="2020-04-06T08:40:03 ICT" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This test should be failed]]>
@@ -230,7 +230,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -256,17 +256,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example4 -->
-        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:TestDemo@40c80397]" name="skippedByDependencyTest" duration-ms="0" started-at="2020-04-06T08:16:20 ICT" depends-on-methods="TestDemo.example1" finished-at="2020-04-06T08:16:20 ICT">
+        <test-method status="SKIP" signature="skippedByDependencyTest()[pri:0, instance:TestDemo@422c3c7a]" name="skippedByDependencyTest" duration-ms="0" started-at="2020-04-06T08:40:03 ICT" depends-on-methods="TestDemo.example1" finished-at="2020-04-06T08:40:03 ICT">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestDemo.skippedByDependencyTest()[pri:0, instance:TestDemo@40c80397] depends on not successfully finished methods]]>
+              <![CDATA[Method TestDemo.skippedByDependencyTest()[pri:0, instance:TestDemo@422c3c7a] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestDemo.skippedByDependencyTest()[pri:0, instance:TestDemo@40c80397] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestDemo.skippedByDependencyTest()[pri:0, instance:TestDemo@422c3c7a] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$62/913242382.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$62/865858182.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
