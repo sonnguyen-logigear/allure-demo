@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 1.745 s <<< FAILURE! - in TestSuite
+example1(TestDemo)  Time elapsed: 0.166 s  <<< FAILURE!
+java.lang.AssertionError: This test should be failed expected [3] but found [2]
+	at TestDemo.example1(TestDemo.java:7)
+
+example4(TestDemo)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: This test should be failed
+	at TestDemo.example4(TestDemo.java:22)
+
+test1(TestDemo2)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [2]
+	at TestDemo2.test1(TestDemo2.java:7)
+
+test4(TestDemo2)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: This test should be failed
+	at TestDemo2.test4(TestDemo2.java:22)
+
